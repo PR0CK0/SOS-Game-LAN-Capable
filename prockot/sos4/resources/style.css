@@ -1,0 +1,183 @@
+.root
+{
+	-fx-background-color: #008080;
+}
+
+Label
+{
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 1.05em;
+	-fx-font-weight: BOLD;
+	-fx-text-alignment: CENTER;
+}
+
+#big-label
+{
+	-fx-font-size: 2.2em;
+	-fx-font-weight: BOLD;
+	-fx-text-alignment: CENTER;
+}
+
+#paragraph-label
+{
+	-fx-font-size: 1.5em;
+	-fx-font-style: ITALIC;
+	-fx-text-alignment: CENTER;
+}
+
+#big-label-player1
+{
+	-fx-font-size: 2.2em;
+	-fx-font-weight: BOLD;
+	-fx-text-fill: DODGERBLUE;
+	-fx-text-alignment: CENTER;
+	-fx-padding: 0, 5, 0, 5;
+	-fx-wrap-text: true;
+}
+
+#big-label-player2
+{
+	-fx-font-size: 2.2em;
+	-fx-font-weight: BOLD;
+	-fx-text-fill: RED;
+	-fx-text-alignment: CENTER;
+	-fx-padding: 0, 5, 0, 5;
+	-fx-wrap-text: true;
+}
+
+#error-label
+{
+	-fx-font-size: 1.40em;
+	-fx-font-weight: BOLD;
+	-fx-text-alignment: CENTER;
+	-fx-text-fill: RED;
+	visibility: visible;
+}
+
+#status-label
+{
+	-fx-font-size: 1.40em;
+	-fx-font-weight: BOLD;
+	-fx-text-alignment: CENTER;
+	-fx-text-fill: #ffffff;
+	visibility: visible;
+}
+
+Button
+{
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-border-color: #99cccc;
+	-fx-background-color: #99cccc;
+	-fx-font-size: 1.40em;
+}
+
+.button:hover {
+	-fx-effect: dropshadow(gaussian, #000000, 5, 0, 1, 2);
+}
+
+VBox
+{
+	-fx-alignment: CENTER;
+}
+
+HBox
+{
+	-fx-alignment: CENTER;
+}
+
+GridPane
+{
+	-fx-alignment: CENTER;
+	-fx-hgap: 3;
+	-fx-vgap: 3;
+}
+
+.text-field
+{
+	-fx-background-radius: 0, 0, 0, 0;
+	-fx-font-size: 1.40em;
+}
+
+.text-field:hover
+{
+	-fx-effect: dropshadow(gaussian, #000000, 5, 0, 1, 2);
+}
+
+#entry-combo-box
+{
+	-fx-border-color: #99cccc;
+	-fx-background-color: #99cccc;
+	-fx-font-size: 1.40em;
+}
+
+#entry-combo-box:hover
+{
+	-fx-effect: dropshadow(gaussian, #000000, 5, 0, 1, 2);
+}
+
+#entry-combo-box .arrow
+{
+	-fx-background-color: #005959;
+}
+
+.combo-box
+{
+	-fx-background-radius: 0, 0, 0, 0;
+}
+
+.combo-box .arrow, .combo-box .arrow-button
+{
+    -fx-background-color: transparent;
+}
+
+.combo-box:hover
+{
+	-fx-effect: dropshadow(gaussian, #000000, 10, 0, 1, 2);
+	-fx-cursor: hand;
+}
+
+.combo-box:disabled
+{
+	-fx-opacity: 1;
+}
+
+.scroll-bar:hover 
+{
+	-fx-effect: dropshadow(gaussian, #909090, 5, 0, 1, 2);
+}
+
+.scroll-bar:pressed 
+{
+	-fx-effect: dropshadow(gaussian, #909090, 5, 0, 1, 2);
+}
+
+.scroll-bar .track
+ {
+	-fx-background-radius: 0,0,0,0;
+}
+
+.scroll-bar .thumb:pressed 
+{
+    -fx-background-color: #9F9F9F;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button 
+{
+	-fx-background-color: #C7C7C7;
+	-fx-background-insets: 0,0,0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.scroll-bar .increment-button:pressed,
+.scroll-bar .decrement-button:pressed 
+{
+	-fx-background-color: #9F9F9F;
+}
+
+.scroll-bar .thumb 
+{
+    -fx-background-color: #C7C7C7;
+	-fx-background-insets: 0,0,0;
+	-fx-background-radius: 0,0,0,0;
+}
