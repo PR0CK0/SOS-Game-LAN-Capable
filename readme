@@ -1,1 +1,7 @@
-dump
+https://en.wikipedia.org/wiki/SOS_(game)
+
+Developed for Dr. Omar Ochoa's SE320 class, ERAU Daytona, Fall 2018.
+
+No comments in the code. Low coupling and high cohesion keep it understandable.
+
+Able to play in LAN mode with another instance of the game. Uses TCP sockets.
